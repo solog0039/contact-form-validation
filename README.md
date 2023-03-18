@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Portfolio: desktop version</b></h3>
+  <h3><b>Portfolio: validate contact form</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -27,7 +27,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio: desktop version <a name="about-project"></a>
+# 📖 Portfolio: validate contact form <a name="about-project"></a>
 
 Portfolio: desktop version  project is the desktop version of my portiflio .
 
