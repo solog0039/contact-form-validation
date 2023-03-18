@@ -224,7 +224,6 @@ const textAread = document.querySelector('#messages');
 const errorMessaged = document.querySelector('.error-messaged');
 const regd = /^([a-z0-9_\-.]+)@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/;
 formFiel.addEventListener('submit', (events) => {
-  
   if (userNamed.value.trim() === '') {
     errorMessaged.style.display = 'block';
     errorMessaged.textContent = 'name can not be empty';
