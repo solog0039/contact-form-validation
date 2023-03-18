@@ -189,12 +189,11 @@ function closseed() {
 spand.onclick = function () {
   closseed();
 };
-
 // form validation
-const formField = document.querySelector('.upper-form-V');
-const userName = document.querySelector('.name-V');
-const emailinput = document.querySelector('.email-V');
-const textArea = document.querySelector('.message-V');
+const formField = document.querySelector('.upper-form');
+const userName = document.querySelector('#name');
+const emailinput = document.querySelector('#email');
+const textArea = document.querySelector('.messages-m');
 const errorMessage = document.querySelector('.error-message');
 const reg = /^([a-z0-9_\-.]+)@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/;
 formField.addEventListener('submit', (events) => {
@@ -217,7 +216,6 @@ formField.addEventListener('submit', (events) => {
     formField.submit();
   }
 });
-
 // form validation desk
 const formFiel = document.querySelector('.upper-form-desk');
 const userNamed = document.querySelector('#named');
@@ -226,7 +224,7 @@ const textAread = document.querySelector('#messages');
 const errorMessaged = document.querySelector('.error-messaged');
 const regd = /^([a-z0-9_\-.]+)@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/;
 formFiel.addEventListener('submit', (events) => {
-  events.preventDefault();
+  
   if (userNamed.value.trim() === '') {
     errorMessaged.style.display = 'block';
     errorMessaged.textContent = 'name can not be empty';
@@ -244,4 +242,5 @@ formFiel.addEventListener('submit', (events) => {
     errorMessaged.style.display = 'none';
     formFiel.submit();
   }
+  events.preventDefault();
 });
