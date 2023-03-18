@@ -906,11 +906,11 @@ ul.Sk-list {
 .social-Linkdinf {
   opacity: 1;
 }
+
 .error-message {
-  border: 1px solid red;
   color: red;
-  width: 80%;
-  text-align: center;
+  width: 70%;
+  border-radius: 10px;
   padding: 10px;
 }
 
@@ -1512,6 +1512,13 @@ ul.Sk-list {
   /* Contact form  */
   .upper-form {
     display: none;
+  }
+
+  .error-messaged {
+    color: red;
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px;
   }
 
   .upper-form-desk {
